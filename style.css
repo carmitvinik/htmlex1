@@ -94,3 +94,14 @@
 
 
 }
+
+ul img {
+    width:100px;
+    transition: width 2s;
+    border-radius: 40%;
+    float: none;
+}
+
+ul img:hover {
+    width:400px;
+}
