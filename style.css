@@ -1,0 +1,96 @@
+@charset "UTF-8";
+*{
+    color:greenyellow;
+    background:brown;
+    direction:rtl;
+}
+
+.pageContainer{
+    width:86%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.pageContainer h1{
+    color:white;
+}
+.pageContainer h2{
+    color:blue;
+}
+.header{
+
+    background-image: url("https://media.mutualart.com/Images/2015_09/24/16/163017338/d3cfceed-f3bf-4c77-b66b-1d282acbb64e_570.Jpeg");
+
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: 100% 400px;
+    back
+    width:100%;
+    height:405px;
+    border-radius:15px 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.header h1,.header h2{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(170,170,170,0.7259278711484594) 35%, rgba(255,255,255,1) 100%);
+    width:35%;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.navigator{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(170,170,170,0.7259278711484594) 35%, rgba(255,255,255,1) 100%);
+    width:85%;
+    height:65px;
+    border-radius: 25px 25px;
+    vertical-align: middle;
+    text-align: center;
+    margin:25px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.navigator a:active,
+.navigator a:link,
+.navigator a:visited,
+.navigator a {
+
+    color: gray;
+    background:none;
+    margin-right:5px;
+    padding:5px;
+    margin-top:10px;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,.0);
+
+
+}
+
+.navigator a:hover{
+    font-weight: 800;
+    background-color: brown;
+    cursor: pointer;
+    border:1px solid greenyellow;
+    border-radius: 12px;
+}
+
+.vid{
+    width:560px;
+    height:315px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    box-shadow: -1px 3px 102px 0px rgba(16,199,43,1);
+
+
+}
