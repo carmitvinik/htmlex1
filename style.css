@@ -94,7 +94,7 @@
 
 
 }
-
+/*
 ul img {
     width:100px;
     transition: width 2s;
@@ -105,3 +105,40 @@ ul img {
 ul img:hover {
     width:400px;
 }
+*/
+
+
+.fr {float: right;}
+
+div.fr ul a:link, div.fr ul a:visited, div.fr ul a:active{
+    text-decoration:none;
+}
+div.fr ul a:hover{
+    pointer:cursor;
+    text-shadow:4px -3px black;
+    font-weight: 900;
+    color:white;
+}
+
+
+div.imgfloop {
+
+    width:500px;
+    height:500px;
+    background-color: inherit;
+    overflow:hidden;
+    margin-right: 115px;
+
+}
+
+div.imgfloop img{
+    width:calc(100% - 18px);
+    height:calc(100% - 18px);
+    border-radius: 200px 200px 4px 200px;
+    border: 7px double white;
+}
+
+.mt {
+    margin-top: 600px;
+}
+
